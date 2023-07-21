@@ -21,10 +21,12 @@ export default {
     const search = ref('')
     const dogs = ref([ 'Charlie', 'Bohoušek', 'Adam', 'Dorotka'])
 
+    // watch - zadáívá se sledovaná proměnná a může jich být víc
     const stopWatch = watch(search, () => {
       console.log('watch function run')
     })
 
+    //watchEffect nezadává se sledovaná proměnná, sám se spouští poprvé ihned při načtení stránky
     const stopEffect = watchEffect(() => {
       console.log('watchEffect', search.value)
     })
@@ -35,6 +37,7 @@ export default {
     
     })
 
+    // stopWatch a stopEffect spustí vnitřní return fcí watch a watchEffect a tím ukončí jejich funkci
     const handleClick = () =>{
         stopWatch()
         stopEffect()
