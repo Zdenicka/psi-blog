@@ -1,0 +1,27 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title": "Welcome to the blog", 
+            "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, sapiente. Consequuntur beatae ut amet ullam quia temporibus? Neque, assumenda at, voluptatibus harum quisquam perspiciatis nostrum numquam aperiam consequatur minus est", 
+            "tags": [
+                "novinky",
+                "psi",
+                "blog"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "První článek", 
+            "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, sapiente. Consequuntur beatae ut amet ullam quia temporibus? Neque, assumenda at, voluptatibus harum quisquam perspiciatis nostrum numquam aperiam consequatur minus est.", 
+            "tags": [
+                "článek",
+                "psi",
+                "blog",
+                "emoce",
+                "etologie"
+            ]
+
+        }
+    ]
+}
