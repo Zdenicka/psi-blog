@@ -9,13 +9,44 @@ body {
   }
   
   h2 {
-    font-size: 3em;
+    font-size: 2.7em;
   }
 
   h3 {
-    font-size: 3em;
+    font-size: 2em;
   }
   a {
     color: $primary;
     cursor: pointer;
+  }
+  header a.router-link-active {
+    text-decoration: none;
+  }
+
+  nav {
+    max-width: 800px;
+    margin: 5% auto;
+    background-color: $secondary;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: larger;
+  }
+
+  .tags {
+    display: inline-block;
+    margin: 1em 1em 0 0;
+    color: $primary;
+    background-color: $secondary;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-size: larger;
+  }
+
+  .post {
+    border-bottom: 1px solid $secondary;
+  }
+
+  .home {
+    max-width: 800px;
+    margin: 5% auto;
   }

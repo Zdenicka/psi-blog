@@ -1,27 +1,56 @@
 {
-    "posts":[
-        {
-            "id": 1,
-            "title": "Welcome to the blog", 
-            "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, sapiente. Consequuntur beatae ut amet ullam quia temporibus? Neque, assumenda at, voluptatibus harum quisquam perspiciatis nostrum numquam aperiam consequatur minus est", 
-            "tags": [
-                "novinky",
-                "psi",
-                "blog"
-            ]
-        },
-        {
-            "id": 2,
-            "title": "První článek", 
-            "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, sapiente. Consequuntur beatae ut amet ullam quia temporibus? Neque, assumenda at, voluptatibus harum quisquam perspiciatis nostrum numquam aperiam consequatur minus est.", 
-            "tags": [
-                "článek",
-                "psi",
-                "blog",
-                "emoce",
-                "etologie"
-            ]
-
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the blog",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, sapiente. Consequuntur beatae ut amet ullam quia temporibus? Neque, assumenda at, voluptatibus harum quisquam perspiciatis nostrum numquam aperiam consequatur minus est",
+      "tags": [
+        "novinky",
+        "psi",
+        "blog"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "První článek",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, sapiente. Consequuntur beatae ut amet ullam quia temporibus? Neque, assumenda at, voluptatibus harum quisquam perspiciatis nostrum numquam aperiam consequatur minus est.",
+      "tags": [
+        "článek",
+        "psi",
+        "blog",
+        "emoce",
+        "etologie"
+      ]
+    },
+    {
+      "title": "Pokus",
+      "body": "Postý a snad naposled",
+      "tags": [
+        "pokus",
+        "json",
+        "databáze",
+        "vkládání"
+      ],
+      "id": 3
+    },
+    {
+      "title": "pokus s routou",
+      "body": "schválně jestli to bude fungovat",
+      "tags": [
+        "vkládáníužjde",
+        "routasnadpůjdetaky"
+      ],
+      "id": 4
+    },
+    {
+      "title": "Routa nešla",
+      "body": "a co teď?",
+      "tags": [
+        "vkládámjakoživot",
+        "nepřesměrovávám",
+        "cosipočnu?"
+      ],
+      "id": 5
+    }
+  ]
 }

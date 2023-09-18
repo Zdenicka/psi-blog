@@ -1,15 +1,16 @@
 <template>
-
+<NavBar></NavBar>
 <router-view></router-view>
 
 
 </template>
 
 <script>
-import { ref } from 'vue'
+import NavBar from './components/NavBar.vue';
 
 export default {
   name: 'psí blog',
+  components: { NavBar }
 
 }
 </script>
