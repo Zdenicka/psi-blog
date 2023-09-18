@@ -19,9 +19,5 @@ export default {
 
 
 <style lang="scss">
-.home {
-  text-align: center;
-  color: $primary
-}
 
 </style>

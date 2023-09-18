@@ -1,3 +1,21 @@
 @import './quasar.variables.scss';
 @import '~quasar-styl';
 // @import '~quasar-addon-styl';
+
+
+body {
+    text-align: center;
+    color: $primary
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
+  a {
+    color: $primary;
+    cursor: pointer;
+  }

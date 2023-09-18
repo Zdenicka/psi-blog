@@ -31,6 +31,8 @@ export default {
     const {posts, error, load } = getPosts()
     load()
 
+    console.log(posts)
+    
     return { posts, error }
 
   },
@@ -42,9 +44,6 @@ export default {
 
 
 <style lang="scss">
-.home {
-  text-align: center;
-  color: $primary
-}
+
 
 </style>

@@ -13,6 +13,7 @@ export default {
   props: [ 'posts' ],
   setup(props){
     console.log(props)
+    console.log(props.posts)
   }
 
 }
