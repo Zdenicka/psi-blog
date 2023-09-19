@@ -1,8 +1,13 @@
 <template>
   <div class="home">
     <div v-if="error">{{ error }}</div>
-    <div v-if="posts.length">
-      <PostList :posts="posts" />
+    <div v-if="posts.length" class="row">
+      <div class="col-9">
+        <PostList :posts="posts" />
+      </div>
+      <div class="col-3">
+        <TagCloud :posts="posts" />
+      </div>
     </div>
     <div v-else>
       <div class="q-pa-md flex flex-center">
@@ -22,10 +27,12 @@
 <script>
 import PostList from '../components/PostList.vue'
 import getPosts from '../composables/getPosts'
+import TagCloud from '../components/TagCloud.vue'
+
 
 export default {
   name: 'psí blog',
-  components: { PostList },
+  components: { PostList, TagCloud },
   setup () {
     const {posts, error, load } = getPosts()
     load()

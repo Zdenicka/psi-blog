@@ -24,7 +24,7 @@ body {
   }
 
   nav {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 5% auto;
     background-color: $secondary;
     padding: 0.5em;
@@ -42,11 +42,26 @@ body {
     font-size: larger;
   }
 
+  .tag {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 1.5em;
+  }
+  .tag a {
+    color: $accent;
+    text-decoration: none;
+  }
+  .tag a.router-link-active {
+    color: $primary;
+    text-decoration: none;
+  }
+
+
   .post {
     border-bottom: 1px solid $secondary;
   }
 
   .home {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 5% auto;
   }

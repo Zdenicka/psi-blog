@@ -4,8 +4,10 @@
         <h3>{{ post.title }}</h3>
     </router-link>
     <p>{{ snippet }}</p>
-    <span v-for="tag in post.tags" :key="tag">
-        #{{ tag }}
+    <span v-for="tag in post.tags" :key="tag" class="tag">
+        <router-link :to="{name: 'Tags', params: {tag: tag}}">
+            #{{ tag }}
+        </router-link>
     </span>
 
   </div>
