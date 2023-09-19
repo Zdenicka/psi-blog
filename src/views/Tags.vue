@@ -26,6 +26,7 @@
 <script>
 import { ref } from 'vue';
 import { computed } from 'vue';
+import { watch } from 'vue';
 import { useRoute } from 'vue-router';
 import PostList from '@/components/PostList.vue';
 import TagCloud from '../components/TagCloud.vue'
@@ -39,16 +40,15 @@ export default {
         const {posts, error, load } = getPosts()
         load()
 
-        const tag = ref(route.params.tag)
         const tagPosts = computed(() => {
-            return posts.value.filter((post) => post.tags.includes(tag.value))
+            return posts.value.filter((post) => post.tags.includes(route.params.tag))
         })
+
  
         return {
 
             posts,
             error,
-            tag,
             tagPosts
 
         }
